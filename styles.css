@@ -1,0 +1,40 @@
+body {
+  background: white;
+}
+
+.container {
+  background: red;
+  margin:auto;
+  text-align:center;
+}
+
+.widget {
+  position: relative;
+  display:table;
+  text-align:center;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.horizontal .widget-container {
+  display:table-cell;
+}
+
+.horizontal .widget-item {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  height: 100%;
+}
+
+.vertical .widget-container {
+  display:table-cell;
+  vertical-align: middle
+}
+
+.vertical .widget-item {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
